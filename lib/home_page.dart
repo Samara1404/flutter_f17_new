@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'components/drawer.dart';
 import 'components/piano_button.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const Drawer(),
+      drawer: Driwerse(),
       appBar: AppBar(
         backgroundColor: Colors.black,
         centerTitle: true,
